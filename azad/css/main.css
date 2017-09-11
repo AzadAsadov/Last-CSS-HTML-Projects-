@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+body {
+	background: url(../img/bg-main.jpg) no-repeat ;
+}
+.wrapper{
+	margin-top: 10px;
+}
+.wrapper .logo {
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.wrapper .logo img {
+	height: 70px;
+}
+.wrapper .ultabs {
+	position: relative;
+	margin-left: 500px;
+	top: -80px;
+}
+.wrapper .ultabs ul {
+	display: block;
+	list-style: none;
+}
+.wapper .ultabs ul li {
+
+}
+.ultabs .fa {
+	float: left;
+	margin-left: 70px;
+	font-size: 30px;
+	color: #fff;
+	background: #18AFD3;
+	border-radius: 50px;
+	padding: 10px 14px;
+}
+.ultabs ul li p {
+	color: gray;
+	float: left;
+	line-height: 1/20rem;
+	margin-left: 10px;
+}
+/*global text*/
+.global-text {
+	margin-top: 50px;
+	width: 480px;
+	margin-left: 70px;
+}
+.global-text .first {
+	font-size: 32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+	letter-spacing: 0.02em;
+	color: gray;
+}
+.global-text .second {
+	font-size: 22px;
+	color: gray;
+
+}
+.azg-button-p {
+	/*nothink etc*/
+	margin-left: 50px;
+}
+.azg-button-p button {
+	padding: 10px 10px;
+	border-radius: 50px;
+	color: #fff;
+	background: #F57E57;
+	border: 1px solid #F57E57;
+	cursor: pointer;
+	outline: 0;
+    font-size: 16px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-family: "Oswald", sans-serif;
+    transition: .3s;
+    backface-visibility: hidden;
+    text-transform: uppercase;
+}
+.azg-button-p button:hover {
+	background-color: #55BBEB;
+	border: 1px solid #55BBEB;
+}
+.pano {
+	background: rgba(33, 33, 33, 0.4);
+	height: 450px;
+	width: 300px;
+	position: absolute;
+	border-radius: 5px;
+	right: 100px;
+	top: 170px;
+}
+.pano h3 {
+	color: #fff;
+	font-family: "Oswald", sans-serif;
+	letter-spacing: 1px;
+	padding-left: 40px;
+	font-size: 25px;
+}
+.input-fields {
+	margin-top: 30px;
+	margin-left: 10px;
+}
+input {
+	outline: 0;
+	padding: 10px 10px;
+	border: 1px solid #fff;
+	width: 80%;
+}
+select {
+	border: 1px solid #fff;
+	background: #fff;
+	padding: 10px 10px;
+	width: 90%;
+}
+button {
+	padding: 10px 10px;
+	border-radius: 50px;
+	color: #fff;
+	text-align: center;
+	background: #F57E57;
+	border: 1px solid #F57E57;
+	cursor: pointer;
+	outline: 0;
+    font-size: 16px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-family: "Oswald", sans-serif;
+    transition: .3s;
+    backface-visibility: hidden;
+    text-transform: uppercase;
+	text-transform: uppercase;
+}
+button:hover {
+	background-color: #55BBEB;
+	border: 1px solid #55BBEB;
+}
+.pano p {
+	color: #fff;
+	font-size: 16px;
+	font-family: "Oswald", sans-serif;
+	letter-spacing: 1px;
+}
